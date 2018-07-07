@@ -17,7 +17,7 @@ Route::group(['middleware' => ['web']], function () {
 
         Route::get('/', function (Request $request) {
 
-            session()->flush();
+            // session()->flush();
             $geoip = geoip()->getLocation()->toArray();
             $locale = app()->getLocale();
             $currency = currency()->getUserCurrency();

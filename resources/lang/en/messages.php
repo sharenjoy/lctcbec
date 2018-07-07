@@ -24,7 +24,7 @@ return [
     'current locale' => 'Current Locale',
     'current currency' => 'Current currency',
     'current timezone' => 'Current timezone',
-    'current ip from' => 'Current IP 來自',
+    'current ip from' => 'Current IP',
     'current accept-language' => 'Accept-Language',
 
 ];
